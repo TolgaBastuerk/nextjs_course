@@ -43,8 +43,8 @@ export async function getStaticProps() {
         id: meetup._id.toString(),
       })),
     },
-    // this page will be regenerated on the server every 10 seconds, if there are requests for this page
-    revalidate: 10,
+    // this page will be regenerated on the server every 1 seconds, if there are requests for this page
+    revalidate: 1,
   };
 }
 
