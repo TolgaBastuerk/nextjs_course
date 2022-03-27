@@ -1,5 +1,6 @@
-import MainNavigation from './MainNavigation';
-import classes from './Layout.module.css';
+import MainNavigation from "./MainNavigation";
+import classes from "./Layout.module.css";
+import Link from "next/Link";
 
 function Layout(props) {
   return (
